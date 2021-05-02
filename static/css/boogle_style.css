@@ -1,0 +1,66 @@
+body {
+    font-famiy: arial,sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+a:link, a:visited  {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: #222;
+}
+
+.header {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.links {
+    width: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.boogle-box {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 20px 0px 0px 0px ;
+}
+
+#boogle-pic {
+    height: 120px;
+}
+
+.search-box {
+    height: 94px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+#search-bar {
+    width: 447px;
+    height: 45px;
+    border-radius: 35px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+#search-bar:hover {
+    box-shadow: 3px 3px 50px;
+}
